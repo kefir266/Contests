@@ -1,0 +1,19 @@
+﻿  Judge.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\fstream(1116): error C2248: 'std::basic_ios<_Elem,_Traits>::basic_ios' : cannot access private member declared in class 'std::basic_ios<_Elem,_Traits>'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>
+          ]
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\ios(176) : see declaration of 'std::basic_ios<_Elem,_Traits>::basic_ios'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>
+          ]
+          This diagnostic occurred in the compiler generated function 'std::basic_ofstream<_Elem,_Traits>::basic_ofstream(const std::basic_ofstream<_Elem,_Traits> &)'
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>
+          ]
