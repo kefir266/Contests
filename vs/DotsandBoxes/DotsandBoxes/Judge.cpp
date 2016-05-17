@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 	
 	outStep(field);
 
-	fout << system("DotsandBox.exe") << field;
+	fout << std::system("DotsandBox.exe") << field;
 
 		//std::ifstream output(tmpfn.c_str());
 
